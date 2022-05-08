@@ -1,0 +1,50 @@
+.feature{
+    font-size: xx-large;
+    font-family: 'BOLD';
+    border-style: dotted;
+    color: blue;
+    
+    
+    
+  }
+  #dot{
+    font-size: xx-large;
+    font-family: fantasy;
+    /*background-color: rgb(255, 128, 0);*/
+    color: #000;
+    font-weight: 400;
+    
+  }
+  #dota1{
+    
+    
+    display: flex;
+    margin: 70px 80px;
+    
+    
+    
+  }
+  #dota2{
+    
+    
+    display: flex;
+    margin: 70px 80px;
+    
+  }
+  #dota3{
+    
+    
+    display: flex;
+    margin: 70px 80px;
+    
+  }
+ body{
+background-size: cover;
+  }
+  #flex{
+    
+    
+    display: flex;
+    margin: 0px 665px;
+   
+  }
