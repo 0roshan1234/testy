@@ -1,25 +1,29 @@
 .feature{
     font-size: xx-large;
-    font-family: 'BOLD';
-    border-style: dotted;
-    color: blue;
-    
-    
+    font-family: 'Rye';
+      
+    color: rgb(253, 253, 254);
+    background-image: url("https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?w=1060&t=st=1672133600~exp=1672134200~hmac=83b38bf1057887fdbfba2d6fe02b6772041555e12611df026d5f3b3b47fadc3f");
+    top: 200px;
     
   }
   #dot{
-    font-size: xx-large;
-    font-family: fantasy;
-    /*background-color: rgb(255, 128, 0);*/
-    color: #000;
-    font-weight: 400;
+    top: 200px;
+font-weight: 2000;
+font-size: 45px;
+
+font-family: 'Rye';
+/*line-height: 30px;*/
+animation: fontSizeAnimation 4s infinite;
+text-align: center;
+
     
   }
   #dota1{
     
     
     display: flex;
-    margin: 70px 80px;
+    margin: 60px 60px;
     
     
     
@@ -40,6 +44,8 @@
   }
  body{
 background-size: cover;
+
+height: 50;
   }
   #flex{
     
@@ -48,3 +54,17 @@ background-size: cover;
     margin: 0px 665px;
    
   }
+  .container{
+    top: 0px;
+  }
+  .navbar{
+    background-image: url("https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?w=1060&t=st=1672133600~exp=1672134200~hmac=83b38bf1057887fdbfba2d6fe02b6772041555e12611df026d5f3b3b47fadc3f");
+  }
+  .background{
+    background-image: url("./5074110e026fca9fec18bd2721c090ae.jpg"); 
+  }
+  .background1{
+   color: aliceblue;
+    background-image: url("https://t4.ftcdn.net/jpg/02/00/11/87/240_F_200118749_rA5PKAUDD0xeB44ZstUclNdevoGsvnwd.jpg"); 
+  }
+  

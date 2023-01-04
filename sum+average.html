@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // count the negative number positive number and zero
+        function positive(){
+        var count=0;
+        var sum=0;
+        var average;
+        while(true){
+            
+            num=prompt(`enter the number: terminated by ${0}`);
+            num=parseInt(num);
+
+            if(num==0){
+                break;
+            }
+            sum=sum+num;
+            count++;
+            average=sum/count;
+        }
+        
+        alert(`sum:${sum},averge:${average}`);
+    }
+    </script>
+    <button onclick="positive()"> click me</button>
+</body>
+
+</html>
